@@ -68,12 +68,16 @@ section.intro h2 {
 section.intro ul {
 	margin-top: 4.5em;
 }
-section.intro li {
-	margin-bottom: 1em;
-	text-align: left;
-	font-size: 1.2em;
-	font-family: 'Open Sans', sans-serif;
-	margin-left: 2em;
+.bulleted-list li {
+  	text-align: left;
+  	margin-bottom: 0;
+  	padding: 0;
+  	list-style: none;
+  	position: relative;
+  	padding-left: 1.5em;
+  	margin-top: 2em;
+  	font-family: 'Open Sans', sans-serif;
+  	font-size: 1em;
 }
 .bulleted-list li:before {
 	position: absolute;
@@ -81,5 +85,6 @@ section.intro li {
 	top: -1px;
 	content: "• ";
 	font-size: 23px;
-	color: #3baf29;
+	color: #2b2b2b;
 }
+
