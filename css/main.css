@@ -90,6 +90,10 @@ section.intro p {
 	line-height: 1.2em;
  	padding: 4px 8%;
 }
+section.intro p.contact {
+	text-align: center;
+	margin-top: 1em;
+}
 section.intro p.click-here {
 	text-align: center;
 }
