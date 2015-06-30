@@ -73,25 +73,6 @@ h1 {
 	margin-bottom: 0.5em;
 	font-family: 'Playfair Display', serif;
 }
-/* Steps */
-.steps {
-	display: table;
-}
-.step {
-	display: table-cell;
-}
-.step p.uppercase {
-	text-transform: uppercase;
-	font-size: 18px;
-}
-li.step {
-	border: 5px 0 5px 5px, solid red;
-}
-section.chart,
-h2 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 24px;
-}
 
 section.intro p {
 	font-size: 22px;
@@ -105,9 +86,11 @@ section.intro p {
 section.intro p.contact {
 	text-align: center;
 	margin-top: 1em;
+	padding: 0;
 }
 section.intro p.click-here {
 	text-align: center;
+	padding: 0;
 }
 
 /*buttons*/
@@ -115,15 +98,21 @@ section.intro p.click-here {
 	border:solid 2px #dadada;
 	padding: 10px 3%;
 	color: #bbbbbc;
-	background-color: #ffffff;
+	background-color: #fff;
 	text-transform: uppercase;
 	font-size: 15px;
 	letter-spacing: 2px;
 	margin-bottom: 2em;
 	display: inline-block;
 }
+.btn:hover {
+	background-color: #fff;
+	border: solid 2px #000;
+	color: #000;
+}
 section.intro img.scroll {
-	margin-top: 0;
+	display: block;
+	margin: 0 auto;
 }
 /*** 
 	Section testimonials
