@@ -67,20 +67,29 @@ section.intro {
 	width: 75%;
 }
 section.intro,
-h2 {
+h1 {
 	text-align: center;
 	font-size: 40px;
 	margin-bottom: 0.5em;
 	font-family: 'Playfair Display', serif;
 }
-
-section.intro img {
-	display: block;
-  	max-width: 100%;
-  	margin: 0 auto;
-  	margin-top: 0.5em;
-  	margin-bottom: 0.5em;
+/* Steps */
+.steps {
+	display: table;
 }
+.step {
+	display: table-cell;
+}
+.step p.uppercase {
+	text-transform: uppercase;
+	font-size: 18px;
+}
+section.chart,
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+}
+
 section.intro p {
 	font-size: 22px;
 	text-align: left;
