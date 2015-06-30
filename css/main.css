@@ -84,6 +84,9 @@ h1 {
 	text-transform: uppercase;
 	font-size: 18px;
 }
+li.step {
+	border: 5px 0 5px 5px, solid red;
+}
 section.chart,
 h2 {
 	font-family: 'Open Sans', sans-serif;
@@ -135,7 +138,7 @@ section.testimonials {
 	padding: 0 3%;
 	text-align: center;
 }
-.testimonials article h1 {
+.testimonials article h2 {
   	border: solid 2px #222;
   	padding: 1.5em 3%;
   	color: #222;
