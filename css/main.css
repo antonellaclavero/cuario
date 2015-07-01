@@ -63,7 +63,7 @@ section.wrapper li {
 /*Section Home*/
 section.intro {
 	float: right;
-	margin-top: 1em;
+	margin-top: 0.5em;
 	width: 75%;
 }
 section.intro,
@@ -73,7 +73,6 @@ h1 {
 	margin-bottom: 0.5em;
 	font-family: 'Playfair Display', serif;
 }
-
 section.intro p {
 	font-size: 22px;
 	text-align: left;
@@ -83,9 +82,12 @@ section.intro p {
 	line-height: 1.2em;
  	padding: 4px 8%;
 }
+section.intro img.schema {
+	width: 80%;
+}
 section.intro p.contact {
 	text-align: center;
-	margin-top: 1em;
+	margin-top: 0.5em;
 	padding: 0;
 }
 section.intro p.click-here {
