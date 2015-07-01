@@ -74,8 +74,8 @@ section.intro {
 	float: right;
 	margin-top: 0.5em;
 	width: 75%;
-	min-height: 750px;
-    max-height: 750px;
+	/*min-height: 750px;
+    max-height: 750px;*/
 }
 section.intro,
 h1 {
