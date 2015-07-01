@@ -65,6 +65,8 @@ section.wrapper li {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	color: #fff;
+	font-weight: 300;
+	line-height: 1em;
 }
 
 /*Section Home*/
