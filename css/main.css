@@ -71,6 +71,9 @@ section.wrapper li {
 	font-weight: 300;
 	line-height: 1em;
 }
+p.space {
+	margin-top: 1em;
+}
 
 /*Section Home*/
 section.intro {
