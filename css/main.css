@@ -74,6 +74,7 @@ section.intro {
 	float: right;
 	margin-top: 0.5em;
 	width: 75%;
+	height: auto;
 }
 section.intro,
 h1 {
