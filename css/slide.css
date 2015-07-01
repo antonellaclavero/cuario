@@ -1,6 +1,7 @@
 .slides {
   overflow: hidden;
   position: relative;
+  margin-top: 2em;
 }
 .slides ul,
 .slides li {

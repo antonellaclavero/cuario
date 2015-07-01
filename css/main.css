@@ -22,9 +22,13 @@ strong {
 header {
 	background-color: #fff;
 }
-header li a.language {
+div.btn-circle {
+	display: inline-block;
+}
+.btn-circle a {
 	border-radius: 50%;
 	border: solid 2px #000;
+	margin-left: 1em;
 }
 header nav ul {
 	float: right;
@@ -33,7 +37,7 @@ header nav ul {
 }
 header nav li {
 	display: inline-block;
-  	margin-top: 2em;
+  	margin-top: 1em;
 }
 header nav a {
 	display: block;
