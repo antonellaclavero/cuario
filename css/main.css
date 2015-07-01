@@ -95,6 +95,7 @@ section.intro p {
 }
 section.intro img.schema {
 	width: 80%;
+	margin-top: 0.5em;
 }
 section.intro p.contact {
 	text-align: center;
@@ -115,7 +116,7 @@ section.intro p.click-here {
 	text-transform: uppercase;
 	font-size: 15px;
 	letter-spacing: 2px;
-	margin-bottom: 2em;
+	margin-bottom: 0.5em;
 	display: inline-block;
 }
 .btn:hover {
