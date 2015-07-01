@@ -75,7 +75,7 @@ section.intro {
 	margin-top: 0.5em;
 	width: 75%;
 	height: 100%;
-	min-height: 700px;
+	position: fixed;
 }
 section.intro,
 h1 {
