@@ -19,6 +19,10 @@ a {
 header {
 	background-color: #fff;
 }
+header li a.language {
+	border-radius: 50%;
+	border: solid 2px #000;
+}
 header nav ul {
 	float: right;
 	position: relative;
