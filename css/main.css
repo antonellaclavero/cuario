@@ -154,3 +154,23 @@ section.testimonials {
 strong {
 	font-weight: bold;
 }
+
+/*media queries*/
+
+@media screen and (max-width: 700px) {
+	section.wrapper {
+		width: 30%;
+	}
+	section.intro {
+		width: 70%;
+	}
+	section.testimonials {
+		width: 100%;
+		margin: 0 auto;
+		margin-left: 3em;
+	}
+}
+@media screen and (max-width: 450px) {
+
+}
+
