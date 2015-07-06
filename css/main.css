@@ -121,9 +121,9 @@ section.intro p.click-here {
 
 /*buttons*/
 .btn {
-	border:solid 2px #dadada;
+	border:solid 2px #606060;
 	padding: 10px 3%;
-	color: #bbbbbc;
+	color: #606060;
 	background-color: #fff;
 	text-transform: uppercase;
 	font-size: 15px;
