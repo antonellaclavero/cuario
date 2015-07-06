@@ -54,7 +54,7 @@ header nav a {
 section.wrapper {
 	background-color: #2b2b2b;
 	width: 25%;
-	height: 755px;
+	height: 801px;
 	display: inline-block;
 	float: left;
 	background-color: #000;
@@ -105,17 +105,18 @@ section.intro p {
 }
 section.intro img.schema {
 	width: 80%;
-	margin-top: 0.5em;
-	margin-left: 3em;
+	margin: 0 auto;
+	margin-top: 1em;
 }
 section.intro p.contact {
 	text-align: center;
-	margin-top: 0.5em;
+	margin-top: 1em;
 	padding: 0;
 }
 section.intro p.click-here {
 	text-align: center;
 	padding: 0;
+	margin-top: 1em;
 }
 
 /*buttons*/
