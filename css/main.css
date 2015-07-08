@@ -91,7 +91,7 @@ h1 {
 	font-family: 'Playfair Display', serif;
 }
 section.intro p {
-	font-size: 22px;
+	font-size: 21px;
 	text-align: justify;
 	margin: 0 1em 0 1em;
 	font-family: 'Open Sans', sans-serif;
@@ -101,7 +101,7 @@ section.intro p {
 }
 section.schema {
   width: 85%;
-  margin: 2em auto;
+  margin: 3em auto;
 }
 .schema section {
 	display: table-cell;
@@ -120,11 +120,13 @@ section.intro p.contact {
 	text-align: center;
 	margin-top: 3em;
 	padding: 0;
+	font-size: 22px
 }
 section.intro p.click-here {
 	text-align: center;
 	padding: 0;
 	margin-top: 2em;
+	font-size: 22px;
 }
 
 /*buttons*/
