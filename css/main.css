@@ -217,16 +217,37 @@ footer .btn-footer {
 }
 /*media queries*/
 @media screen and (max-width: 1200px) {
+	header nav ul {
+		margin-bottom: 1em;
+	}
+	h1 {
+		margin: 0.5em 0.5em 0.5em 1.2em;
+	}
+	section.schema {
+  		width: 100%;
+  	}
+  	.schema section {
+		width: 22%;
+	}
 	.testimonials article {
-		width: 33%;
+		width: 80%;
+  		margin: 0 auto;
+  		display: block;
+  	}
+  	.testimonials article h2 {
+  		margin-top: 2em;
+	}
+	section.intro p.click-here {
+  		margin-top: 1em;
+  	}
 }
 
 @media screen and (max-width: 700px) {
 	section.wrapper {
-		width: 30%;
+		width: 100%;
 	}
 	section.intro {
-		width: 70%;
+		width: 100%;
 	}
 	section.testimonials {
 		width: 100%;
@@ -234,12 +255,33 @@ footer .btn-footer {
 	  	margin-left: 3em;
   	}
   	.testimonials article {
-		display: table;
+		display: block;
 		width: 80%;
 		text-align: center;
+		margin: 0 0 2em 0;
 	}
 }
 @media screen and (max-width: 450px) {
-
+	h1 {
+		margin: 0.5em 0 0.5em 1.3em;
+	}
+	section.wrapper {
+		width: 100%;
+	}
+	section.intro {
+		width: 100%;
+	}
+	section.schema {
+  		width: 100%;
+  	}
+	.schema section {
+  		display: block;
+  		width: 100%;
+  	}
+  	section.testimonials {
+  		margin: 0 0 2em 2em;
+  	}
+  	.testimonials article h2 {
+  		margin-top: 2em;
+	}
 }
-
